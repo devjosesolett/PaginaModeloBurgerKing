@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+nav{
+    background-color: white;
+    height: 90px;
+    width: 100%;
+}
+
+main{
+    background-color: rgb(233, 109, 21);
+    width: 100%;
+}
+
+#logo-burger-king{
+    position: relative;
+    left: 80px;
+    top: 10px;
+}
+
+#barra-de-busqueda{
+    width: 280px;
+    height: 20px;
+    position: relative;
+    left: 630px;
+    top: -20px;
+}
+
+#icono-lupa{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 604px;
+    top: -17px;
+}
+
+#llevar-inicio{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 680px;
+    top: -20px;
+}
+
+#llevar-menu{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 710px;
+    top: -20px;
+}
+
+#llevar-contacto{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 740px;
+    top: -20px;
+}
+
+#trompeta-izquierda{
+    margin: 0px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+#frase-bienvenida{
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    position: relative;
+    left: 405px;
+    top: -90px;
+}
+
+#corona-burger-king{
+    background-color: rgb(233, 109, 21);
+    position: relative;
+    top: -265px;
+    left: 395px;
+    transform: rotate(-45deg);
+}
+
+#trompeta-derecha{
+    margin: 0px;
+    position: relative;
+    left: 1143px;
+    top: -193px;
+    transform: rotateY(180deg);
+}
+
+#imagen-restaurante{
+    position: relative;
+    top: -183px;
+}

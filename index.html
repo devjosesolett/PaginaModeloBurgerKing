@@ -5,26 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Burger King</title>
     <link rel="shortcut icon" href="imagenes/favicon-burger-king.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav
-    style="background-color: white; height: 90px; width: 100%;">
-        <a href="#">
+    <nav>
+        <a id="logo-burger-king" href="#">
         <img width="70px" height="70 px" src="imagenes/favicon-burger-king.png" alt="logo de burger king"></a>
-        <input type="text" placeholder="Busque uno de nuestros productos..." style="width: 250px;">
-        <ul>
-            <a href="#inicio">Inicio</a>
-            <a href="#menu">Menú</a>
-            <a href="https://web.whatsapp.com/send?phone=584166608187&text="
-            target="_blank">Contacto</a>
-        </ul>
+        <input id="barra-de-busqueda"
+        type="text" placeholder="Busque uno de nuestros productos...">
+        <img id="icono-lupa" src="imagenes/icono-lupa.png" alt="imagen de una lupa">
+        <a id="llevar-inicio" href="#inicio">Inicio</a>
+        <a id="llevar-menu" href="#menu">Menú</a>
+        <a id="llevar-contacto" href="https://web.whatsapp.com/send?phone=584166608187&text="
+        target="_blank">Contacto</a>
     </nav>
-    <main style="background-color: #FF6600; width: 100%; height: 800px"
-    id="inicio">
-        <h1>Bienvenidos a la realeza...</h1>
-        <img src="imagenes/imagen-de-bienvenida.png" alt="imagen de un restaurante burger king"
-        style="width: 1000px; height: 350px;">
+    <main id="inicio">
+        <img id="trompeta-izquierda"
+        width="140px" height="140px"
+        src="imagenes/gif-trompeta.gif"
+        alt="gif de trompeta">
+        <h1 id="frase-bienvenida">Bienvenidos a la realeza...</h1>
+        <img id="corona-burger-king"
+        width="30px" height="30px"
+        src="imagenes/corona-burger-king.png"
+        alt="corona burger king">
+        <img id="trompeta-derecha"
+        width="140px" height="140px"
+        src="imagenes/gif-trompeta.gif"
+        alt="gif de trompeta">
+        <img id="imagen-restaurante"
+        src="imagenes/imagen-de-bienvenida.png" alt="imagen de un restaurante burger king"
+        style="width: 100%; height: 350px;">
         <section id="menu" style="background-color: #ff2400">
             <h2>Nuestro menú de reyes:</h2>
             <table>

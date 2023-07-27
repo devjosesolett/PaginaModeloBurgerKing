@@ -1,7 +1,8 @@
 *{
+    text-decoration: none;
     margin: 0px;
     padding: 0;
-
+    overflow-x: hidden;
 }
 
 body{
@@ -17,6 +18,8 @@ nav{
 main{
     background-color: rgb(233, 109, 21);
     width: 100%;
+    height: 1850px;
+    overflow-y: hidden;
 }
 
 #logo-burger-king{
@@ -42,7 +45,6 @@ main{
 }
 
 #llevar-inicio{
-    text-decoration: none;
     color: black;
     position: relative;
     left: 680px;
@@ -50,7 +52,6 @@ main{
 }
 
 #llevar-menu{
-    text-decoration: none;
     color: black;
     position: relative;
     left: 715px;
@@ -58,7 +59,6 @@ main{
 }
 
 #llevar-contacto{
-    text-decoration: none;
     color: black;
     position: relative;
     left: 740px;
@@ -117,6 +117,7 @@ main{
     top: -5px;
     left: 208px;
     background-color: #ee3123;
+    overflow-y: hidden;
 }
 
 #titulo-menu{
@@ -171,13 +172,12 @@ main{
 .division-entradas{
     border-radius: 30%;
     position: relative;
-    height: 330px;
+    height: 313px;
     width: 350px;
     background-color: white;
 }
 
 .titulo-comidas{
-    text-decoration: none;
     color: white;
     font-family: 'Lucida Console';
     font-style:oblique;
@@ -217,29 +217,29 @@ main{
 }
 
 #div-party-box{
-    top: -1356px;
+    top: -1590px;
     left: 785px;
 }
 
 #imagen-party-box{
     position: relative;
-    top: -1720px;
-    left: 800px;
+    top: -1946px;
+    left: 807px;
 }
 
 #titulo-party-box{
     font-size: 30px;
     position: relative;
     color: rgb(233, 109, 21);
-    top: -1415px;
-    left: 873px;
+    top: -1651px;
+    left: 876px;
 }
 
 #precio-g-party-box{
     font-size: 40px;
     position: relative;
     color: rgb(233, 109, 21);
-    top: -1614px;
+    top: -1841px;
     left: 1002px;
 }
 
@@ -247,6 +247,238 @@ main{
     font-size: 20px;
     position: relative;
     color: rgb(233, 109, 21);
-    top: -1640px;
-    left: 1050px;
+    top: -1867px;
+    left: 1049px;
+}
+
+#div-whopper-queso-tocineta{
+    top: -490px;
+    left: 575px;
+}
+
+#titulo-whopper-queso-tocineta{
+    position: relative;
+    font-size: 27px;
+    top: -568px;
+    left: 621px;
+}
+
+#precio-g-whopper-queso-tocineta{
+    font-size: 65px;
+    position: relative;
+    top: -725px;
+    left: 924px;
+
+}
+
+#precio-p-whopper-queso-tocineta{
+    font-size: 30px;
+    position: relative;
+    top: -765px;
+    left: 1002px;
+}
+
+#imagen-whopper-queso-tocineta{
+    position: relative;
+    top: -1000px;
+    left: 640px;
+}
+
+#div-merengada-king-cocosette{
+    top: -1815px;
+    left: 209px;
+}
+
+#titulo-merengada-king-cocosette{
+    font-size: 21px;
+    position: relative;
+    color: rgb(233, 109, 21);
+    top: -1889px;
+    left: 230px;
+}
+
+#precio-g-merengada-king-cocosette{
+    font-size: 40px;
+    position: relative;
+    top: -2030px;
+    left: 415px;
+    color: rgb(233, 109, 21);
+}
+
+#precio-p-merengada-king-cocosette{
+    font-size: 23px;
+    position: relative;
+    top: -2056px;
+    left: 460px;
+    color: rgb(233, 109, 21);
+}
+
+#imagen-merengada-king-cocosette{
+    position: relative;
+    top: -2190px;
+    left: 207px;
+}
+
+#div-king-pollo-americano{
+    background-color: #ee3123;
+    border-radius: 30%;
+    height: 380px;
+    width: 923px;
+    position: relative;
+    top: -2080px;
+    left: 209px;
+}
+
+#titulo-king-pollo-americano{
+    position: relative;
+    top: -2180px;
+    left: 369px;
+    font-size: 43px;
+}
+
+#precio-g-king-pollo-americano{
+    position: relative;
+    font-size: 80px;
+    color: white;
+    top: -2350px;
+    left: 307px;
+}
+
+#precio-p-king-pollo-americano{
+    position: relative;
+    font-size: 40px;
+    color: white;
+    top: -2403px;
+    left: 402px;
+}
+
+#imagen-king-pollo-americano{
+    position: relative;
+    top: -2710px;
+    left: 572px;
+}
+
+#div-mas{
+    background-color: #ee3123;
+    height: 34px;
+    width: 870px;
+    position: relative;
+    top: -2542px;
+    left: 240px;
+}
+
+#redondo-mas-izquierdo{
+    background-color: #ee3123;
+    height: 68px;
+    width: 74px;
+    border-radius: 50%;
+    position: relative;
+    top: -2610px;
+    left: 198px;
+}
+
+#redondo-mas-derecho{
+    background-color: #ee3123;
+    height: 68px;
+    width: 74px;
+    border-radius: 50%;
+    position: relative;
+    top: -2678px;
+    left: 1078px;
+}
+
+#titulo-mas{
+    position: relative;
+    top: -2971px;
+    left: 570px;
+    font-size: 300px;
+    color: white;
+}
+
+footer{
+    background-color: white;
+    height: 240px;
+    overflow-y: hidden;
+}
+
+#p-formulario{
+    font-family: arial;
+    position: relative;
+    top: 23px;
+    color: black;
+    left: 40px;
+}
+
+#formulario{
+    height: 102px;
+}
+
+#correo{
+    position: relative;
+    top: 30px;
+    left: 40px;
+    height: 20px;
+    width: 268px;
+    font-family: arial;
+}
+
+#boton-submit{
+    position: relative;
+    top: 68px;
+    left: -237px;
+    color: white;
+    background-color: gray;
+    height: 25px;
+    width: 120px;
+}
+
+#logo-instagram{
+    position: relative;
+    top: -15px;
+    left: 572px;
+}
+
+#logo-twitter{
+    position: relative;
+    top: -15px;
+    left: 609px;
+}
+
+#logo-whatsapp{
+    position: relative;
+    top: -17px;
+    left: 643px;
+}
+
+#linea-izquierda{
+    border-top: 1px solid gray;
+    height: 2px;
+    width: 320px;
+    position: relative;
+    left: 219px;
+    top: -42px;
+}
+
+#linea-derecha{
+    border-top: 1px solid gray;
+    height: 2px;
+    width: 320px;
+    position: relative;
+    left: 830px;
+    top: -45px;
+}
+
+#copy-burger-king{
+    position: relative;
+    top: -10px;
+    left: 39px;
+    color: gray;
+}
+
+#indicador-dev{
+    font-size: 20px;
+    position: relative;
+    top: -33px;
+    left: 1188px;
+    color: gray;
 }
